@@ -1,6 +1,6 @@
-function playerSelection() {
-    const playerSelection = prompt("Do you chose Rock, Paper or Scissors").toLowerCase();
-    return playerSelection
+//function playerSelection() {
+    //const playerSelection = prompt("Do you chose Rock, Paper or Scissors").toLowerCase();
+    //return playerSelection
 }
 
 function computerSelection(index){
