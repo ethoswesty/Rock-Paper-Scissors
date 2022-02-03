@@ -6,11 +6,11 @@ function playerSelection() {
 function computerSelection(index){
     let computerSelection = Math.random();
         if (computerSelection < 0.37){
-            computerSelection = "Rock"
+            computerSelection = "rock"
         } else if (computerSelection <= 0.67){
             computerSelection = "paper"
         } else {
-            computerSelection = "Scissors"
+            computerSelection = "scissors"
         }
         return computerSelection
 }
@@ -22,9 +22,9 @@ function playRound(playerSelection,computerSelection){
       } else if (playerSelection == "rock" && computerSelection == "rock") {
         return "It's a Draw";
       }
-      if (playerSelection == "paper" && computerSelection == "Rock") {
+      if (playerSelection == "paper" && computerSelection == "rock") {
         return "You Win! Paper beats Rock";
-      } else if (playerSelection == "paper" && computerSelection == "Scissors") {
+      } else if (playerSelection == "paper" && computerSelection == "scissors") {
         return "Loser! Scissors Beats Paper";
       } else if (playerSelection == "paper" && computerSelection == "paper") {
         return "It's a Draw";
@@ -32,9 +32,9 @@ function playRound(playerSelection,computerSelection){
 
       if (playerSelection == "scissors" && computerSelection == "paper") {
         return "You Win! Scissors beats paper!";
-      } else if (playerSelection == "scissors" && computerSelection == "Rock") {
+      } else if (playerSelection == "scissors" && computerSelection == "rock") {
         return "Loser! Rock Beats Scissors";
-      } else if (playerSelection == "scissors" && computerSelection == "Scissors") {
+      } else if (playerSelection == "scissors" && computerSelection == "scissors") {
         return "It's a Draw";
       } else {
           return "Something went wrong"
