@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.btns {
+    display: flex;
+    flex: 0 1 auto;
+    gap: 12px;
+}
+
+button {
+    background-color: #0082befa;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    font-size: 42px;
+    padding: 12px 22px;
+}
